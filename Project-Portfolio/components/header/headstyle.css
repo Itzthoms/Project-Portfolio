@@ -1,0 +1,107 @@
+body {
+    font-family: Inter;
+}
+
+.rubrik {
+    color: #FFF;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.r-location {
+    margin: 6vw 5vw;
+}
+.rubrik2 {
+    color: #1AD3D3;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.int-style {
+    margin-left: 5vw;
+    width: 50%;
+}
+.introduction {
+    color: #1AD3D3;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.introduction-txt {
+    color: #BBB9B9;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.blocklayout {
+    width: 500px;
+    height: 500px;
+    transform: rotate(-48.402deg);
+    flex-shrink: 0;
+    border-radius: 38px;
+    background: linear-gradient(180deg, #302DA9 0%, #B0B0B0 100%);
+    margin: -20vw 82vw;
+}
+.blocklayout2 {
+    width: 500px;
+    height: 500px;
+    transform: rotate(-48.402deg);
+    flex-shrink: 0;
+    border-radius: 38px;
+    background: linear-gradient(180deg, #302DA9 0%, #B0B0B0 100%);
+    margin: 15vw 64vw;
+}
+.blocklayout3 {
+    width: 500px;
+    height: 500px;
+    transform: rotate(-48.402deg);
+    flex-shrink: 0;
+    border-radius: 38px;
+    background: linear-gradient(180deg, #302DA9 0%, #B0B0B0 100%);
+    margin: -22vw 85vw;
+}
+@media (max-width: 1630px) {
+    .blocklayout2 {
+        margin: 15vw 60vw;
+    }
+    .blocklayout3 {
+        margin: -23vw 85vw;
+    }
+}
+@media (max-width: 1370px) {
+    .blocklayout2 {
+        margin: 15vw 55vw;
+    }
+    .blocklayout3 {
+        margin: -23vw 85vw;
+    }
+}
+@media (max-width: 1080px) {
+    .rubrik, .rubrik2 {
+        font-size: 80px;
+    }
+    .blocklayout2, .blocklayout3 {
+        display: none;
+    }
+    .int-style {
+        width: 65%;
+    }
+}
+@media (max-width: 720px) {
+    .int-style {
+        width: 75%;
+    }
+    .rubrik, .rubrik2 {
+        font-size: 60px;
+    }
+    .introduction {
+        font-size: 20px;
+    }
+    .introduction-txt {
+        font-size: 18px;
+    }
+}

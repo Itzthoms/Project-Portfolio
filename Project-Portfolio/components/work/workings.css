@@ -1,0 +1,86 @@
+.job1 {
+    width: 525px;
+    height: 160px;
+    flex-shrink: 0;
+    border-radius: 38px;
+    background: linear-gradient(180deg, #302DA9 0%, #1AD3D3 100%);
+    margin: 30vw 20vw;
+}
+.job1style {
+    padding-top: 1.5vw;
+    padding-left: 2vw;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.job2 {
+    width: 525px;
+    height: 160px;
+    flex-shrink: 0;
+    border-radius: 38px;
+    background: linear-gradient(180deg, #302DA9 0%, #1AD3D3 100%);
+    margin: -25vw 50vw;
+}
+.job2style {
+    padding-top: 1.5vw;
+    padding-left: 2vw;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.job3 {
+    width: 525px;
+    height: 160px;
+    flex-shrink: 0;
+    border-radius: 38px;
+    background: linear-gradient(180deg, #302DA9 0%, #1AD3D3 100%);
+    margin: 30vw 20vw;
+}
+.job3style {
+    padding-top: 1.5vw;
+    padding-left: 2vw;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.job4 {
+    width: 525px;
+    height: 160px;
+    flex-shrink: 0;
+    border-radius: 38px;
+    background: linear-gradient(180deg, #302DA9 0%, #1AD3D3 100%);
+    margin: -25vw 50vw;
+}
+.job4style {
+    padding-top: 1.5vw;
+    padding-left: 2vw;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+@media (max-width: 1300px){
+    .job1, .job2, .job3, .job4 {
+        margin-left: 25%;
+    }
+}
+@media (max-width: 950px){
+    .job1, .job2, .job3, .job4 {
+        margin-left: 20%;
+        width: 425px;
+        height: 130px;
+        border-radius: 20px;
+    }
+}

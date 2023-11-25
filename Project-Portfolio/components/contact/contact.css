@@ -1,0 +1,136 @@
+body {
+    font-family: Inter;
+}
+input {
+  padding-left: 15px;
+}
+textarea {
+  padding-left: 15px;
+  padding-top: 15px;
+}
+textarea[placeholder="Meddelande"]{
+  font-family: inter;
+}
+input[placeholder="E-mail"]{
+  font-family: inter;
+}
+input[placeholder="Namn"]{
+  font-family: inter;
+}
+.contact-build {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 45vw;
+    margin-left: 30vw;
+  }
+  
+  .inputs {
+    width: 747px;
+    height: 75px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border-width: 0;
+    background: #1E2735;
+  }
+
+  .send-textarea {
+    width: 747px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border-width: 0;
+    background: #1E2735;
+  }
+
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: var(--white-color);
+    padding-top: 20px;
+  }
+  .ct-title {
+    text-align: center;
+    color: #1AD3D3;
+    font-family: Inter;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 10vw;
+
+  }
+  .btn-press {
+    width: 762px;
+    height: 118px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border-width: 0;
+    margin-top: 2vw;
+    background: linear-gradient(90deg, #074DBA 0%, #07D2FF 100%);
+  }
+  .btn-press[value="Skicka"] {
+    font-size: 1rem;
+  }
+
+  .btn-press:hover {
+    cursor: pointer;
+    background: linear-gradient(90deg, #235db9 0%, #6ce3fd 100%);
+    color: rgb(204, 204, 204);
+  }
+  
+  @media (max-width: 1600px) {
+    .ct-title {
+      margin-left: -2vw;
+    }
+    .inputs {
+      width: 505px;
+      height: 55px;
+      }
+    
+      .send-textarea {
+        width: 505px;
+        height: 150px;
+      }
+    
+      label {
+        font-size: 15px;
+      }
+      .btn-press {
+        width: 525px;
+        height: 55px;
+      }
+  }
+  @media (max-width: 1080px) {
+    .contact-build {
+      margin-left: 25%;
+    }
+  }
+    @media (max-width: 950px) {
+      .contact-build {
+        margin-left: 20%;
+      }
+  }
+  @media (max-width: 750px) {
+    .ct-title {
+      margin-left: -15vw;
+    }
+    .inputs {
+      width: 400px;
+      height: 50px;
+      }
+    
+      .send-textarea {
+        width: 400px;
+        height: 145px;
+      }
+    
+      label {
+        font-size: 15px;
+      }
+      .btn-press {
+        width: 425px;
+        height: 55px;
+      }
+  }

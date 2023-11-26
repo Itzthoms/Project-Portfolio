@@ -125,12 +125,98 @@ input[placeholder="Namn"]{
         width: 400px;
         height: 145px;
       }
-    
-      label {
-        font-size: 15px;
-      }
+
       .btn-press {
         width: 425px;
         height: 55px;
       }
   }
+  @media (max-width: 580px) {
+    .ct-title {
+      margin-left: -30vw;
+    }
+    .inputs {
+      width: 300px;
+      height: 40px;
+      }
+    
+      .send-textarea {
+        width: 300px;
+        height: 135px;
+      }
+
+      .btn-press {
+        width: 325px;
+        height: 55px;
+      }
+  }
+  @media (max-width: 450px) {
+    .contact-build {
+      margin-left: 15%;
+    }
+    .ct-title {
+      margin-left: -35vw;
+    }
+    .inputs {
+      width: 300px;
+      height: 35px;
+      }
+    
+      .send-textarea {
+        width: 300px;
+        height: 135px;
+      }
+
+      .btn-press {
+        margin-top: 6vw;
+        width: 325px;
+        height: 55px;
+      }
+  }
+  @media (max-width: 400px) {
+    .contact-build {
+      margin-left: 8vw;
+    }
+    .ct-title {
+      margin-left: -25vw;
+    }
+    .inputs {
+      width: 300px;
+      height: 35px;
+      }
+    
+      .send-textarea {
+        width: 300px;
+        height: 135px;
+      }
+
+      .btn-press {
+        margin-top: 6vw;
+        width: 325px;
+        height: 55px;
+      }
+    }
+    @media (max-width: 380px) {
+      .contact-build {
+        margin-left: 12vw;
+      }
+      .ct-title {
+        margin-left: -25vw;
+        font-size: 30px;
+      }
+      .inputs {
+        width: 250px;
+        height: 35px;
+        }
+      
+        .send-textarea {
+          width: 250px;
+          height: 135px;
+        }
+  
+        .btn-press {
+          margin-top: 6vw;
+          width: 265px;
+          height: 55px;
+        }
+      }

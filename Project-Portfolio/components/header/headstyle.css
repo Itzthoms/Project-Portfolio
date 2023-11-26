@@ -105,3 +105,38 @@ body {
         font-size: 18px;
     }
 }
+@media (max-width: 580px) {
+    .rubrik, .rubrik2 {
+        font-size: 40px;
+    }
+    .blocklayout {
+        display: none;
+    }
+    .introduction {
+        font-size: 15px;
+    }
+    .introduction-txt {
+        font-size: 13px;
+    }
+}
+@media (max-width: 510px) {
+    .int-style {
+        width: 90%;
+    }
+}
+@media (max-width: 410px) {
+    .r-location {
+        margin: 10vw 5vw;
+    }
+}
+@media (max-width: 370px) {
+    .rubrik, .rubrik2 {
+        font-size: 30px;
+    }
+    .introduction {
+        font-size: 13px;
+    }
+    .introduction-txt {
+        font-size: 11px;
+    }
+}

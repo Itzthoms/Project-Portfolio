@@ -90,3 +90,45 @@ a .line3:hover {
         margin-left: 45vw;
     }
 }
+@media (max-width: 520px) {
+    .inline {
+        margin-top: -4.5vw;
+    }
+    .inline2 {
+        margin-top: 2vw;
+        margin-left: -40vw;
+    }
+    .line3 {
+        margin-left: 45vw;
+    }
+}
+@media (max-width: 450px) {
+    .inline {
+        margin-top: -5.5vw;
+    }
+    .inline2 {
+        margin-top: 2vw;
+        margin-left: -30vw;
+    }
+    .line1 {
+        margin-left: 33vw;
+    }
+    .line3 {
+        margin-left: 55vw;
+    }
+}
+@media (max-width: 390px) {
+    .inline {
+        margin-top: -6vw;
+    }
+    .inline2 {
+        margin-top: 2vw;
+        margin-left: -40vw;
+    }
+    .line1 {
+        margin-left: 27vw;
+    }
+    .line3 {
+        margin-left: 58vw;
+    }
+}

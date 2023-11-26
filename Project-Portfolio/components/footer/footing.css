@@ -17,12 +17,11 @@ a { color: inherit; }
     margin-left: 60vw;
     display: inline-block;
     vertical-align: top;
+    color: rgb(204, 204, 204);
 
 }
-a .line2 {
-    color: rgb(204, 204, 204);
-}
-a .line2:hover {
+
+.line2:hover {
     color: rgb(128, 128, 128);
 }
 
@@ -31,12 +30,10 @@ a .line2:hover {
     margin-bottom: 2vw;
     display: inline-block;
     vertical-align: top;
-}
-
-a .line3 {
     color: rgb(204, 204, 204);
 }
-a .line3:hover {
+
+.line3:hover {
     color: rgb(128, 128, 128);
 }
 .line2 img {

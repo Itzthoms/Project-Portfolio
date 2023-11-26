@@ -19,11 +19,11 @@ function Head() {
         <div className="int-style">
             <span className="introduction-txt">
             Jag är Tomas, Frontend Utvecklare från Stockholm som är
-            väldigt engagerad när det kommer till byggen av hemsidor. Vare sig det gäller
+            väldigt engagerad när det kommer till byggen av hemsidor. <div className="small-sep">Vare sig det gäller
             förplanering i Figma eller under det faktiska programmerandet
-            där jag är kunnig inom bland annat HTML, CSS, Javascript, Python och PHP.
+            där jag är kunnig inom bland annat HTML, CSS, Javascript, Python och PHP.<div className="small-sep2">
             Jag brukar mestadels nyttja mig utav frameworket React.JS, mer specifikt Vite
-            när jag skapar mina sidor, eller Next.js beroende på projekt.
+            när jag skapar mina sidor, eller Next.js beroende på projekt.</div></div>
 
             </span>
         </div>

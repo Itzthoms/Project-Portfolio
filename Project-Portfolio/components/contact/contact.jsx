@@ -1,28 +1,32 @@
 import React from 'react';
 import "./Contact.css";
 
-var body = document.getElementById("Message").value;
-var SubjectLine = document.getElementById("Subject").value;
-window.location.href = "mailto:mail@example.com?subject="+SubjectLine+"&body="+body;
-
 function Contact() {
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    const subjectLine = document.getElementById("Subject").value;
+    const emailBody = document.getElementById("Message").value;
+
+    const mailtoLink = `mailto:tompanatk@outlook.com?subject=${encodeURIComponent(subjectLine)}&body=${encodeURIComponent(emailBody)}`;
+
+    window.location.href = mailtoLink;
+  };
 
   return (
     <div>
-
-      <form action="mailto:tompanatk@outlook.com" method="get" enctype="text/plain" className="contact-build">
+      <form onSubmit={handleSubmit} className="contact-build">
         <h1 className="ct-title">Kontakt</h1>
         <label>Ämne</label>
-        <input type="text" name="from_name" className="inputs" placeholder="Ämne" />
+        <input type="text" id="Subject" name="from_name" className="inputs" placeholder="Ämne" />
         <label>Email</label>
         <input type="email" name="from_email" className="inputs" placeholder="E-mail" />
         <label>Meddelande</label>
-        <textarea name="message" className="send-textarea" placeholder="Meddelande" />
+        <textarea id="Message" name="message" className="send-textarea" placeholder="Meddelande" />
         <input type="submit" value="Skicka" className="btn-press" />
       </form>
-        
     </div>
-  )
+  );
 }
 
-export default Contact
+export default Contact;

@@ -1,5 +1,5 @@
 body {
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
 }
 a { color: inherit; } 
 .inline {
@@ -85,6 +85,7 @@ a { color: inherit; }
     .line3 {
         margin-left: 78vw;
         margin-left: 45vw;
+        margin-bottom: 10vw;
     }
 }
 @media (max-width: 520px) {
@@ -112,9 +113,10 @@ a { color: inherit; }
     }
     .line3 {
         margin-left: 55vw;
+        margin-bottom: 20vw;
     }
 }
-@media (max-width: 390px) {
+@media (max-width: 420px) {
     .inline {
         margin-top: -6vw;
     }
